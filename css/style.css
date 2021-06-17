@@ -1,0 +1,203 @@
+body{
+  position: relative;
+  width: 100%;
+}
+#myFood{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+#mail{
+  float: right;
+  margin-right: 40px;
+}
+img{
+  width:260px;
+  height: 350px;
+}
+#images{
+  margin: 70px;
+}
+h2{
+  display: inline;
+  font-size: 25px;
+  text-align: left;
+  line-height: 1.5;
+}
+pre{
+  line-height: 1.5;
+
+}
+#images .img2{
+  margin-left: 315px;
+  position: absolute;
+  top:125px;
+}
+#images .img3{
+  margin-left:635px ;
+  position: absolute;
+  top:125px;
+}
+#images .img4{
+  margin-left:950px ;
+  position: absolute;
+  top:125px;
+}
+#images .img6{
+  position: absolute;
+  margin-left: 315px;
+  top: 665px;
+}
+#images .img7{
+  position: absolute;
+  margin-left: 635px;
+  top: 665px;
+}
+
+#images .img8{
+  position: absolute;
+  margin-left: 950px;
+  top: 665px;
+}
+.listNum{
+  margin-left: 500px;
+  margin-top: 100px;
+}
+.listNum .numbers a{
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  /* white-space: normal;
+  user-select: none;
+  vertical-align: middle;
+  overflow: hidden; */
+}
+
+.listNum .numbers .number1{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+.listNum .numbers a:hover{
+  background-color: black;
+  padding:10px 15px;
+  color: white;
+}
+hr{
+  margin-top: 80px;
+  width: 90%;
+  color: gray;
+}
+.aboutMe h3{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+.aboutMe img{
+  width:800px;
+  height: 535px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px ;
+}
+.aboutMe h4{
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 15px;
+
+}
+.aboutMe h5{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.aboutMe pre{
+text-align:justify;
+margin-left: 100px;
+
+}
+.footerText{
+  height: 300px;
+  position: relative;
+}
+.footerText p{
+text-align: justify;
+margin-left: 100px ;
+}
+.footerText h2{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.footerText .text1{
+  margin-top: 100px;
+}
+.footerText .text1 p{
+  line-height: 1.5;
+}
+.footerText .text2 h2{
+  position: absolute;
+  left:400px;
+  top: 5px;
+}
+.footerText .text3 h2{
+  position: absolute;
+  left:760px;
+  top: 5px;
+}
+.footerText .text2 .image1{
+  width:50px;
+  height: 50px;
+  position: absolute;
+  left:520px;
+  top:60px;
+  float: left;
+}
+.footerText .text2 .p1{
+  position: absolute;
+  left:490px;
+  top:60px;
+  line-height: 1.3;
+  font-size: 20px;
+}
+.footerText .text2 hr{
+  position: absolute;
+  top: 70px;
+  left: 490px;
+}
+.footerText .text2 .image2{
+  width:50px;
+  height: 50px;
+  position: absolute;
+  left:520px;
+  top:190px;
+  float: left;
+}
+.footerText .text2 .p2{
+  position: absolute;
+  left:490px;
+  top:190px;
+  line-height: 1.3;
+  font-size: 20px;
+}
+.footerText .text3 .tags{
+  position: absolute;
+  left: 860px;
+  top:70px;
+  
+}
+.footerText .text3 .tags span{
+  margin-left: 5px;
+  line-height: 2.0;
+  background-color: rgb(180, 179, 179);
+  padding: 2px 8px;
+
+}
+.footerText .text3 .tags .travel{
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+ 
+}

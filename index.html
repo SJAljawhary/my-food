@@ -1,0 +1,268 @@
+
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Food</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  margin-left: 40px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<header>
+  
+  <div id="myFood">
+    <h1>My Food</h1>
+    <h1 id="mail">Mail</h1>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Food</a>
+    <a href="#">About</a>
+    
+  </div>
+  
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer;margin-left: 30px;" onclick="openNav()">&#9776;</span>
+  </div>
+
+
+</header>
+
+<main>
+
+  <div id="images">
+
+     <div class="img1">
+
+      <img src="img/sandwich.jpg" alt=""><br>
+      <h2>The Perfect Sandwich, A <br> Real NYC Classic</h2><br>
+      <pre>Just some random text, lorem ipsum<br> text  praesent tincidunt ipsum lipsum.</pre><br><br><br><br>
+
+     </div>
+
+     <div class="img2">
+
+      <img src="img/steak.jpg" alt=""><br>
+      <h2>Let Me Tell You About <br> This Steak</h2>
+      <pre>Once again, some random text to <br>lorem  lorem lorem lorem ipsum text  <br>    praesenttincidunt ipsum lipsum.</pre>
+
+     </div>
+
+    <div class="img3">
+
+      <img src="img/cherries.jpg" alt=""><br>
+      <h2>Cherries, interrupted</h2><br>
+      <pre>Lorem ipsum text praesent <br> tincidunt ipsum lipsum.</pre> <br><br>
+
+        <pre>                  What else?</pre>
+
+    </div>
+  
+    <div class="img4">
+
+      <img src="img/wine.jpg" alt=""><br>
+      <h2>Once Again, Robust Wine <br> and Vegetable Pasta</h2><br>
+      <pre>Lorem ipsum text praesent tincidunt <br>             ipsum lipsum.</pre>
+
+    </div>
+   
+    <div class="img5">
+
+      <img src="img/popsicle.jpg" alt=""><br>
+      <h2>All I Need Is a Popsicle</h2><br>
+      <pre>Lorem ipsum text praesent tincidunt <br>                 ipsum lipsum.</pre>
+
+    </div>
+
+    <div class="img6">
+
+      <img src="img/salmon.jpg" alt=""><br>
+      <h2>Salmon For Your Skin</h2><br>
+      <pre>Once again, some random text to <br> lorem lorem lorem lorem ipsum text <br> praesent tincidunt ipsum lipsum.</pre>
+
+    </div>
+
+    <div class="img7"> 
+
+      <img src="img/sandwich.jpg" alt=""><br>
+      <h2>The Perfect Sandwich, <br> A Real Classic</h2><br>
+      <pre>Just some random text, lorem ipsum <br> text praesent tincidunt ipsum lipsum.</pre>
+
+    </div>
+
+    <div class="img8">
+
+      <img src="img/croissant.jpg" alt=""><br>
+      <h2>Le French</h2><br>
+      <pre>Lorem lorem lorem lorem ipsum text <br> praesent tincidunt ipsum lipsum.</pre>
+
+
+    </div>
+  </div>
+
+  <div class="listNum">
+    <div class="numbers">
+      <a href="#">«</a>
+      <a class="number1" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">»</a>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="aboutMe">
+
+
+  <h3>About Me,The Food Man</h3>
+  <img src="img/chef.jpg" alt="">
+  <h4>I am Who I Am!</h4>
+  <h5>With Passion For Real, Good Food</h5>
+  <pre>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog.  I want to share<br> my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent<br>                                    tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</pre>
+
+  <hr>
+
+  </div>
+
+  
+</main>
+
+<footer class="footerText">
+  <div class="text1">
+
+    <h2>FOOTER</h2><br><br>
+    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae <br> justo condimentum, porta lectus vitae, ultricies <br> congue gravida diam non fringilla. <br><br><br>
+  
+      Powered by <a href="https://github.com/SJAljawhary" style="color: black;">Sondos Al-jawhary</a></p>
+
+  </div>
+
+ 
+  <div class="text2">
+
+    <h2>BLOG POSTS</h2>
+
+    <div class="post1">
+
+      <img class="image1" src="img/workshop.jpg" alt="">
+      <p class="p1">Lorem <br>
+        Sed mattis nunc</p>
+
+    </div>
+   
+
+
+      <hr style="width:25%;">
+
+
+    <img class="image2" src="img/gondol.jpg" alt="">
+    <p class="p2">Ipsum <br>
+      Praes tinci sed</p>
+
+
+
+  </div>
+
+  <div class="text3">
+
+    <h2>POPULAR TAGS</h2>
+    <div class="tags" >
+      <span class="travel">Travel</span>
+      <span>New York</span>
+      <span>Dinner</span>
+      <span>Salmon</span>
+      <span>France</span>
+      <span>Drinks</span> <br>
+      <span>Ideas</span>
+      <span>Flavors</span>
+      <span>Cuisine</span>
+      <span>Chicken</span>
+      <span>Dressing</span>
+      <span>Fried</span>
+      <span>Fish</span> <br>
+      <span>Duck</span>
+    </div>
+
+
+   
+  </div>
+
+</footer>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+
+
+
+</script>
+   
+</body>
+</html> 
